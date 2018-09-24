@@ -59,4 +59,4 @@ Bot.on('message', function (message) {
     }
 })
 
-Bot.login(token)
+Bot.login(process.env.TOKEN)
