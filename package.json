@@ -1,0 +1,16 @@
+{
+  "name": "skariiebot",
+  "version": "1.0.0",
+  "description": "Le magnifique bot créer par Skariie_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skariie_#2823",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "opus": "0.0.0",
+    "youtube-audio-stream": "^0.2.0"
+  }
+}
