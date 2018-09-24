@@ -8,11 +8,11 @@ Bot.on('ready', function () {
 
 
 
-Bot.on('guildMemberAdd', function (member) {
+/* Bot.on('guildMemberAdd', function (member) {
     member.createDM().then(function (channel) {
        return channel.send('Bienvenue sur le serveur Discord' + member.displayName)
     }).catch(console.error)
-})
+}) */
 
 Bot.on('message', function (message) {
     if (message.content === prefix + 'ping') {
@@ -59,4 +59,4 @@ Bot.on('message', function (message) {
     }
 })
 
-Bot.login('NDkwNDIwNzQ4MTMzOTkwNDAw.Dn5ECg.8ni7eEIfNtEqvAovlxkA80-Of_A')
+Bot.login(token)
